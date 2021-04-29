@@ -4,4 +4,5 @@ pin_speed: pin_speed.c
 all: pin_speed
 
 install: all
-	cp pin_speed ../bin
+	mkdir -p ../bin
+	cp pin_speed ../bin/
